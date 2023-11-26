@@ -1,0 +1,1024 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-11-26T12:16:40.059Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8827911900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.configEdge()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Validate the forgotten with invalid EmailAddress",
+        "description": "",
+        "id": "validate-the-forgotten-password-functionality;validate-the-forgotten-with-invalid-emailaddress",
+        "after": [
+          {
+            "result": {
+              "duration": 531285500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterEachScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7372244200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should click the Signin Button",
+            "match": {
+              "location": "ForgottenStepDefinition.userShouldClickTheSigninButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 831391600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should click the Forgot Password button",
+            "match": {
+              "location": "ForgottenStepDefinition.userShouldClickTheForgotPasswordButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 734361600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should input invalid EmailAddress on the textbox",
+            "match": {
+              "location": "ForgottenStepDefinition.userShouldInputInvalidEmailAddressOnTheTextbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3300279700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should click the Reset My Password button",
+            "match": {
+              "location": "ForgottenStepDefinition.userShouldClickTheResetMyPasswordButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 25455600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should print the Title of page",
+            "match": {
+              "location": "ForgottenStepDefinition.userShouldPrintTheTitleOfPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11300800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User should print the Current url of my page",
+            "match": {
+              "location": "ForgottenStepDefinition.userShouldPrintTheCurrentUrlOfMyPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13084700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User should navigate to referer page",
+            "match": {
+              "location": "ForgottenStepDefinition.userShouldNavigateToRefererPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Super"
+          }
+        ]
+      }
+    ],
+    "name": "Validate the forgotten password functionality",
+    "description": "",
+    "id": "validate-the-forgotten-password-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Forgotten.feature",
+    "tags": [
+      {
+        "name": "@Super",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2023-11-26T12:17:01.759Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7895604600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.configEdge()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Validate the login with invalid EmailAddress and invalid Password",
+        "description": "",
+        "id": "validate-the-login-functionality-of-courts-page;validate-the-login-with-invalid-emailaddress-and-invalid-password",
+        "after": [
+          {
+            "result": {
+              "duration": 722964300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterEachScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7179239500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should click the Signin button",
+            "match": {
+              "location": "LoginStepDefinition.user_should_click_the_Signin_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2435988500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should input invalid EmailAddress and invalid PassworD in the textbox",
+            "match": {
+              "location": "LoginStepDefinition.userShouldInputInvalidEmailAddressAndInvalidPassworDInTheTextbox(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Id",
+                  "Pass",
+                  "Mail"
+                ]
+              },
+              {
+                "cells": [
+                  "priya@gmail.com",
+                  "pay@56",
+                  "naveena@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "java@gmail.com",
+                  "ja@62",
+                  "ravi@gmail.com"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3103465000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User should click the Login button",
+            "match": {
+              "location": "LoginStepDefinition.user_should_click_the_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 22215600,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User should print the title of page",
+            "match": {
+              "location": "LoginStepDefinition.user_should_print_the_title_of_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 25717200,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User should print the current url of my page",
+            "match": {
+              "location": "LoginStepDefinition.user_should_print_the_current_url_of_my_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7437900,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User should navigate to invalid login or password page",
+            "match": {
+              "location": "LoginStepDefinition.user_should_navigate_to_invalid_login_or_password_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Love"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2023-11-26T12:17:23.170Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7519343400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.configEdge()"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "Validate the login with valid EmailAddress and invalid Password",
+        "description": "",
+        "id": "validate-the-login-functionality-of-courts-page;validate-the-login-with-valid-emailaddress-and-invalid-password",
+        "after": [
+          {
+            "result": {
+              "duration": 582254800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterEachScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7296555400,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User should click the Signin button",
+            "match": {
+              "location": "LoginStepDefinition.user_should_click_the_Signin_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 406966400,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User should input valid EmailAddress and invalid Password in the textbox",
+            "match": {
+              "location": "LoginStepDefinition.userShouldInputValidEmailAddressAndInvalidPasswordInTheTextbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1745671900,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "User should click the Login button",
+            "match": {
+              "location": "LoginStepDefinition.user_should_click_the_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 78831000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "User should print the title of page",
+            "match": {
+              "location": "LoginStepDefinition.user_should_print_the_title_of_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 283285400,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "User should print the current url of my page",
+            "match": {
+              "location": "LoginStepDefinition.user_should_print_the_current_url_of_my_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 121232900,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "User should navigate to invalid login or password page",
+            "match": {
+              "location": "LoginStepDefinition.user_should_navigate_to_invalid_login_or_password_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2023-11-26T12:17:41.216Z",
+        "before": [
+          {
+            "result": {
+              "duration": 12274543200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.configEdge()"
+            }
+          }
+        ],
+        "line": 50,
+        "name": "Validate the login with invalid EmailAddress and valid Password",
+        "description": "",
+        "id": "validate-the-login-functionality-of-courts-page;validate-the-login-with-invalid-emailaddress-and-valid-password;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 908700500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterEachScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8061097600,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "User should click the Signin button",
+            "match": {
+              "location": "LoginStepDefinition.user_should_click_the_Signin_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 405983500,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "User should input valid EmailAddress \"kumar99@gmail.com\" and invalid Password \"kumar123\" in the textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kumar99@gmail.com\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"kumar123\"",
+                  "offset": 78
+                }
+              ],
+              "location": "LoginStepDefinition.userShouldInputValidEmailAddressAndInvalidPasswordInTheTextbox(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1992760500,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "User should click the Login button",
+            "match": {
+              "location": "LoginStepDefinition.user_should_click_the_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 72778900,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "User should print the title of page",
+            "match": {
+              "location": "LoginStepDefinition.user_should_print_the_title_of_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 139487900,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "User should print the current url of my page",
+            "match": {
+              "location": "LoginStepDefinition.user_should_print_the_current_url_of_my_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 248386000,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "User should navigate to invalid login or password page",
+            "match": {
+              "location": "LoginStepDefinition.user_should_navigate_to_invalid_login_or_password_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2023-11-26T12:18:05.342Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7351252200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.configEdge()"
+            }
+          }
+        ],
+        "line": 51,
+        "name": "Validate the login with invalid EmailAddress and valid Password",
+        "description": "",
+        "id": "validate-the-login-functionality-of-courts-page;validate-the-login-with-invalid-emailaddress-and-valid-password;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 523455400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterEachScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7486730600,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "User should click the Signin button",
+            "match": {
+              "location": "LoginStepDefinition.user_should_click_the_Signin_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 449734600,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "User should input valid EmailAddress \"rkmahendran93@gmail.com\" and invalid Password \"mahendran123\" in the textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"rkmahendran93@gmail.com\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"mahendran123\"",
+                  "offset": 84
+                }
+              ],
+              "location": "LoginStepDefinition.userShouldInputValidEmailAddressAndInvalidPasswordInTheTextbox(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1428165900,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "User should click the Login button",
+            "match": {
+              "location": "LoginStepDefinition.user_should_click_the_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 329399800,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "User should print the title of page",
+            "match": {
+              "location": "LoginStepDefinition.user_should_print_the_title_of_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 192377800,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "User should print the current url of my page",
+            "match": {
+              "location": "LoginStepDefinition.user_should_print_the_current_url_of_my_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33731000,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "User should navigate to invalid login or password page",
+            "match": {
+              "location": "LoginStepDefinition.user_should_navigate_to_invalid_login_or_password_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2023-11-26T12:18:23.141Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7323696400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.configEdge()"
+            }
+          }
+        ],
+        "line": 52,
+        "name": "Validate the login with invalid EmailAddress and valid Password",
+        "description": "",
+        "id": "validate-the-login-functionality-of-courts-page;validate-the-login-with-invalid-emailaddress-and-valid-password;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 746349600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterEachScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7198565800,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "User should click the Signin button",
+            "match": {
+              "location": "LoginStepDefinition.user_should_click_the_Signin_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 431031200,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "User should input valid EmailAddress \"kannan90@gmail.com\" and invalid Password \"kannan123\" in the textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kannan90@gmail.com\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"kannan123\"",
+                  "offset": 79
+                }
+              ],
+              "location": "LoginStepDefinition.userShouldInputValidEmailAddressAndInvalidPasswordInTheTextbox(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1686010100,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "User should click the Login button",
+            "match": {
+              "location": "LoginStepDefinition.user_should_click_the_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 63659800,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "User should print the title of page",
+            "match": {
+              "location": "LoginStepDefinition.user_should_print_the_title_of_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47749200,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "User should print the current url of my page",
+            "match": {
+              "location": "LoginStepDefinition.user_should_print_the_current_url_of_my_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 197720400,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "User should navigate to invalid login or password page",
+            "match": {
+              "location": "LoginStepDefinition.user_should_navigate_to_invalid_login_or_password_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2023-11-26T12:18:40.834Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7533672000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.configEdge()"
+            }
+          }
+        ],
+        "line": 53,
+        "name": "Validate the login with invalid EmailAddress and valid Password",
+        "description": "",
+        "id": "validate-the-login-functionality-of-courts-page;validate-the-login-with-invalid-emailaddress-and-valid-password;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 642509300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterEachScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7239458400,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "User should click the Signin button",
+            "match": {
+              "location": "LoginStepDefinition.user_should_click_the_Signin_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 427091000,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "User should input valid EmailAddress \"vijay79@gmail.com\" and invalid Password \"vijay123\" in the textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"vijay79@gmail.com\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"vijay123\"",
+                  "offset": 78
+                }
+              ],
+              "location": "LoginStepDefinition.userShouldInputValidEmailAddressAndInvalidPasswordInTheTextbox(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1933903900,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "User should click the Login button",
+            "match": {
+              "location": "LoginStepDefinition.user_should_click_the_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 69423800,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "User should print the title of page",
+            "match": {
+              "location": "LoginStepDefinition.user_should_print_the_title_of_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 160995000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "User should print the current url of my page",
+            "match": {
+              "location": "LoginStepDefinition.user_should_print_the_current_url_of_my_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 248663300,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "User should navigate to invalid login or password page",
+            "match": {
+              "location": "LoginStepDefinition.user_should_navigate_to_invalid_login_or_password_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2023-11-26T12:18:59.108Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7383378500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.configEdge()"
+            }
+          }
+        ],
+        "line": 54,
+        "name": "Validate the login with invalid EmailAddress and valid Password",
+        "description": "",
+        "id": "validate-the-login-functionality-of-courts-page;validate-the-login-with-invalid-emailaddress-and-valid-password;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 639803900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterEachScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7462996300,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "User should click the Signin button",
+            "match": {
+              "location": "LoginStepDefinition.user_should_click_the_Signin_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 411594200,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "User should input valid EmailAddress \"latha94@gmail.com\" and invalid Password \"latha123\" in the textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"latha94@gmail.com\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"latha123\"",
+                  "offset": 78
+                }
+              ],
+              "location": "LoginStepDefinition.userShouldInputValidEmailAddressAndInvalidPasswordInTheTextbox(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1755900400,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "User should click the Login button",
+            "match": {
+              "location": "LoginStepDefinition.user_should_click_the_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 84499800,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "User should print the title of page",
+            "match": {
+              "location": "LoginStepDefinition.user_should_print_the_title_of_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 144728200,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "User should print the current url of my page",
+            "match": {
+              "location": "LoginStepDefinition.user_should_print_the_current_url_of_my_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 256138900,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "User should navigate to invalid login or password page",
+            "match": {
+              "location": "LoginStepDefinition.user_should_navigate_to_invalid_login_or_password_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validate the login Functionality of Courts Page",
+    "description": "",
+    "id": "validate-the-login-functionality-of-courts-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Login.feature",
+    "tags": []
+  }
+]

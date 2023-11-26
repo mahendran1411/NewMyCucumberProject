@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="8" time="157.179476">
+<testcase classname="Validate the forgotten password functionality" name="Validate the forgotten with invalid EmailAddress" time="21.700006">
+<system-out><![CDATA[When User should click the Signin Button....................................passed
+And User should click the Forgot Password button............................passed
+And User should input invalid EmailAddress on the textbox...................passed
+And User should click the Reset My Password button..........................passed
+And User should print the Title of page.....................................passed
+And User should print the Current url of my page............................passed
+Then User should navigate to referer page...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate the login Functionality of Courts Page" name="Validate the login with invalid EmailAddress and invalid Password" time="21.413359">
+<system-out><![CDATA[When User should click the Signin button....................................passed
+And User should input invalid EmailAddress and invalid PassworD in the textbox.passed
+And User should click the Login button......................................passed
+And User should print the title of page.....................................passed
+And User should print the current url of my page............................passed
+Then User should navigate to invalid login or password page.................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate the login Functionality of Courts Page" name="Validate the login with valid EmailAddress and invalid Password" time="18.040459">
+<system-out><![CDATA[When User should click the Signin button....................................passed
+And User should input valid EmailAddress and invalid Password in the textbox.passed
+And User should click the Login button......................................passed
+And User should print the title of page.....................................passed
+And User should print the current url of my page............................passed
+Then User should navigate to invalid login or password page.................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate the login Functionality of Courts Page" name="Validate the login with invalid EmailAddress and valid Password" time="24.117694">
+<system-out><![CDATA[When User should click the Signin button....................................passed
+And User should input valid EmailAddress "kumar99@gmail.com" and invalid Password "kumar123" in the textbox.passed
+And User should click the Login button......................................passed
+And User should print the title of page.....................................passed
+And User should print the current url of my page............................passed
+Then User should navigate to invalid login or password page.................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate the login Functionality of Courts Page" name="Validate the login with invalid EmailAddress and valid Password 2" time="17.800696">
+<system-out><![CDATA[When User should click the Signin button....................................passed
+And User should input valid EmailAddress "rkmahendran93@gmail.com" and invalid Password "mahendran123" in the textbox.passed
+And User should click the Login button......................................passed
+And User should print the title of page.....................................passed
+And User should print the current url of my page............................passed
+Then User should navigate to invalid login or password page.................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate the login Functionality of Courts Page" name="Validate the login with invalid EmailAddress and valid Password 3" time="17.700753">
+<system-out><![CDATA[When User should click the Signin button....................................passed
+And User should input valid EmailAddress "kannan90@gmail.com" and invalid Password "kannan123" in the textbox.passed
+And User should click the Login button......................................passed
+And User should print the title of page.....................................passed
+And User should print the current url of my page............................passed
+Then User should navigate to invalid login or password page.................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate the login Functionality of Courts Page" name="Validate the login with invalid EmailAddress and valid Password 4" time="18.261877">
+<system-out><![CDATA[When User should click the Signin button....................................passed
+And User should input valid EmailAddress "vijay79@gmail.com" and invalid Password "vijay123" in the textbox.passed
+And User should click the Login button......................................passed
+And User should print the title of page.....................................passed
+And User should print the current url of my page............................passed
+Then User should navigate to invalid login or password page.................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate the login Functionality of Courts Page" name="Validate the login with invalid EmailAddress and valid Password 5" time="18.144632">
+<system-out><![CDATA[When User should click the Signin button....................................passed
+And User should input valid EmailAddress "latha94@gmail.com" and invalid Password "latha123" in the textbox.passed
+And User should click the Login button......................................passed
+And User should print the title of page.....................................passed
+And User should print the current url of my page............................passed
+Then User should navigate to invalid login or password page.................passed
+]]></system-out>
+</testcase>
+</testsuite>
